@@ -2,7 +2,7 @@
 
 My personal Neovim configuration for a streamlined development experience. Built with [LazyVim](https://www.lazyvim.org/) and inspired by [craftzdog/dotfiles](https://github.com/craftzdog/dotfiles-public).
 
-![Neovim Screenshot](screenshot.png) <!-- Add a screenshot if available -->
+<!--![Neovim Screenshot](screenshot.png)  Add a screenshot if available -->
 
 ---
 
