@@ -226,4 +226,20 @@ return {
       },
     },
   },
+
+  {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    build = "cd app && npm install", -- or yarn install if you prefer
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+    end,
+    ft = { "markdown" },
+  },
+  {
+    "barrett-ruth/live-server.nvim",
+    build = "pnpm add -g live-server",
+    cmd = { "LiveServerStart", "LiveServerStop" },
+    config = true,
+  },
 }
