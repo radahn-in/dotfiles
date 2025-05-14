@@ -242,4 +242,10 @@ return {
     cmd = { "LiveServerStart", "LiveServerStop" },
     config = true,
   },
+  {
+    "norcalli/nvim-colorizer.lua",
+    config = function()
+      require("colorizer").setup()
+    end,
+  },
 }
