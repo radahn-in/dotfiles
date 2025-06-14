@@ -10,6 +10,10 @@ return {
         },
         opts = { skip = true },
       })
+      opts.cmdline = {
+        enabled = true,
+        view = "cmdline",
+      }
       local focused = true
       vim.api.nvim_create_autocmd("FocusGained", {
         callback = function()
