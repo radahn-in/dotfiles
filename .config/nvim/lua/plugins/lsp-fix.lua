@@ -1,15 +1,14 @@
 return {
   -- Add this before any other LSP-related configurations
   {
-    "williamboman/mason-lspconfig.nvim",
-    version = "v1.18.0",
+    "mason-org/mason-lspconfig.nvim",
     lazy = false,
     priority = 100,
   },
 
   -- Keep your existing Mason config
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     opts = function(_, opts)
       vim.list_extend(opts.ensure_installed, {
         "stylua",
