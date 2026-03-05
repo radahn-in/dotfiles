@@ -92,6 +92,9 @@ keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz", opts)
 keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz", opts)
 keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz", opts)
 
+-- Showkeys Toggle
+keymap.set("n", "<leader>tw", "<cmd>ShowkeysToggle<cr>", { desc = "Toggle showkeys" })
+
 -- Global search and replace (ThePrimeagen's favorite)
 keymap.set(
   "n",
