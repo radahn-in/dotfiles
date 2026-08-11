@@ -16,6 +16,7 @@ return {
         "graphql",
         "http",
         "java",
+        "python",
         "php",
         "rust",
         "scss",
@@ -54,6 +55,8 @@ return {
       },
     },
     config = function(_, opts)
+      require("nvim-treesitter.install").compilers = {"gcc"} 
+      require("nvim-treesitter.install").prefer_git = false
       local TS = require("nvim-treesitter")
       TS.setup(opts)
 

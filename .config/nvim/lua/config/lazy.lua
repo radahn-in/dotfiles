@@ -21,6 +21,7 @@ require("lazy").setup({
       colorscheme = "rose-pine",
     } },
     -- import any extra module here
+    { import = "lazyvim.plugins.extras.lang.python" },
     -- import/override with your plugins
     { import = "plugins" },
   },

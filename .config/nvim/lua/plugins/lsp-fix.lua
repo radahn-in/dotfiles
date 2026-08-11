@@ -14,6 +14,7 @@ return {
         "stylua",
         "gopls",
         "pyright",
+        "ruff",
         "gofumpt",
         "golangci-lint",
       })
