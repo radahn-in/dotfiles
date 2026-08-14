@@ -108,7 +108,7 @@ alias ls="ls -l --color=auto"
 
 # Enable colorized output for common commands
 autoload -U colors && colors
-export LS_COLORS=$LS_COLORS:'di=2;34:ln=36:so=35:pi=33:ex=1;32:bd=1;33;40:cd=1;33;40:su=37;41:sg=30;43:tw=30;42:ow=34;42:'
+export LS_COLORS='di=01;38;5;214:ln=36:so=35:pi=33:ex=01;32:bd=01;33;40:cd=01;33;40:su=37;41:sg=30;43:tw=30;42:ow=34;42:'
 
 # Start tmux automatically if not already running
 if [[ -z "$TMUX" ]] && [[ -n "$DISPLAY" || -n "$SSH_TTY" || -n "$WSL_DISTRO_NAME" ]]; then
